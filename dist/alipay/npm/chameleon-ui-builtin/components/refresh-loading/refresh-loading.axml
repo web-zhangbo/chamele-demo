@@ -1,3 +1,0 @@
-<view class="refresh-loading  cml-base cml-view cml-797ea8ee">
-  <image class="refresh-loading-gif  cml-base cml-image cml-797ea8ee" src="{{loadingGif}}" />
-</view>

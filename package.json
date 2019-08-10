@@ -5,7 +5,8 @@
   "author": "",
   "private": true,
   "scripts": {
-    "dev": "cml dev"
+    "dev": "cml dev",
+    "build": "cml build"
   },
   "license": "MIT",
   "dependencies": {

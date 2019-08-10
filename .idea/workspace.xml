@@ -2,27 +2,539 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f47b80-4796-47a8-8941-a85412a5744d" name="默认" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/components/demo-com/demo-com.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/components/demo-com/demo-com.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/components/demo-com/demo-com.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/components/first-com/first-com.acss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/components/first-com/first-com.acss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/audio/audio.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/audio/audio.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/audio/audio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/button/button.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/button/button.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/button/button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel/carousel.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel/carousel.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/carousel/carousel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/checkbox/checkbox.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/checkbox/checkbox.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/checkbox/checkbox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/input/input.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/input/input.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/input/input.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/aside/aside.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/aside/aside.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/aside/aside.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/col/col.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/col/col.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/col/col.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/container/container.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/container/container.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/container/container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/foot/foot.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/foot/foot.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/foot/foot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/main/main.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/main/main.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/main/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/row/row.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/row/row.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/layout/row/row.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/list/list.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/list/list.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/list/list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/page/page.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/page/page.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/page/page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/radio/radio.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/radio/radio.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/radio/radio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/richtext/richtext.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/richtext/richtext.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/richtext/richtext.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/scroller/scroller.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/scroller/scroller.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/scroller/scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/switch/switch.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/switch/switch.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/switch/switch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/textarea/textarea.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/textarea/textarea.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/textarea/textarea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/video/video.acss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/video/video.axml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/npm/chameleon-ui-builtin/components/video/video.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/alipay/pages/index/index.acss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/pages/index/index.acss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/alipay/pages/index/index.axml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/pages/index/index.axml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/alipay/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/pages/index/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/img/chameleon_83ee00e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/img/loading_1f26c50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/img/selected_520dcc8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/img/unselected_4e38c39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/components/first-com/first-com.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/static/js/components/first-com/first-com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/static/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/alipay/static/js/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/alipay/static/js/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/components/demo-com/demo-com.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/components/demo-com/demo-com.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/components/demo-com/demo-com.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/components/first-com/first-com.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/components/first-com/first-com.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/audio/audio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/audio/audio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/audio/audio.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/button/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/button/button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/button/button.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel/carousel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/carousel/carousel.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/checkbox/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/checkbox/checkbox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/checkbox/checkbox.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/input/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/input/input.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/input/input.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/aside/aside.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/aside/aside.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/aside/aside.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/col/col.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/col/col.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/col/col.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/container/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/container/container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/container/container.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/foot/foot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/foot/foot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/foot/foot.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/head/head.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/head/head.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/head/head.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/head/head.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/main/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/main/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/main/main.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/row/row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/row/row.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/layout/row/row.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/list/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/list/list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/list/list.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/page/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/page/page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/page/page.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/radio/radio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/radio/radio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/radio/radio.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/richtext/richtext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/richtext/richtext.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/richtext/richtext.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/scroller/scroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/scroller/scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/scroller/scroller.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/switch/switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/switch/switch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/switch/switch.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/textarea/textarea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/textarea/textarea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/textarea/textarea.swan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/video/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/video/video.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/npm/chameleon-ui-builtin/components/video/video.swan" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/baidu/pages/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/pages/index/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/baidu/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/pages/index/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/baidu/pages/index/index.swan" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/pages/index/index.swan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/img/chameleon_83ee00e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/img/loading_1f26c50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/img/selected_520dcc8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/img/unselected_4e38c39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/components/first-com/first-com.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/static/js/components/first-com/first-com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/static/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/head/head.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/baidu/static/js/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/baidu/static/js/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qq/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/pages/index/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qq/pages/index/index.qml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/pages/index/index.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/components/demo-com/demo-com.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/components/demo-com/demo-com.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/components/demo-com/demo-com.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/components/first-com/first-com.qss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/components/first-com/first-com.qss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/audio/audio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/audio/audio.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/audio/audio.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/button/button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/button/button.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/button/button.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel/carousel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel/carousel.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/carousel/carousel.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/checkbox/checkbox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/checkbox/checkbox.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/checkbox/checkbox.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/input/input.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/input/input.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/input/input.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/aside/aside.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/aside/aside.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/aside/aside.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/col/col.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/col/col.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/col/col.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/container/container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/container/container.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/container/container.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/foot/foot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/foot/foot.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/foot/foot.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/main/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/main/main.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/main/main.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/row/row.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/row/row.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/layout/row/row.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/list/list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/list/list.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/list/list.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/page/page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/page/page.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/page/page.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/radio/radio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/radio/radio.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/radio/radio.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/richtext/richtext.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/richtext/richtext.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/richtext/richtext.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/scroller/scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/scroller/scroller.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/scroller/scroller.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/switch/switch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/switch/switch.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/switch/switch.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/textarea/textarea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/textarea/textarea.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/textarea/textarea.qss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/video/video.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/video/video.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/npm/chameleon-ui-builtin/components/video/video.qss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/qq/pages/index/index.qss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/pages/index/index.qss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/img/chameleon_83ee00e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/img/loading_1f26c50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/img/selected_520dcc8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/img/unselected_4e38c39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/components/first-com/first-com.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/static/js/components/first-com/first-com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/static/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qq/static/js/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/qq/static/js/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/qq/static/js/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/wx/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/pages/index/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/wx/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/components/demo-com/demo-com.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/components/demo-com/demo-com.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/components/demo-com/demo-com.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/components/first-com/first-com.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/components/first-com/first-com.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/audio/audio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/audio/audio.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/audio/audio.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/button/button.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/button/button.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/button/button.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel/carousel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel/carousel.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/carousel/carousel.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/checkbox/checkbox.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/checkbox/checkbox.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/checkbox/checkbox.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/input/input.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/input/input.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/input/input.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/aside/aside.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/aside/aside.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/aside/aside.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/col/col.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/col/col.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/col/col.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/container/container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/container/container.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/container/container.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/foot/foot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/foot/foot.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/foot/foot.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/head/head.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/head/head.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/head/head.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/head/head.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/main/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/main/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/main/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/row/row.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/row/row.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/layout/row/row.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/list/list.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/list/list.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/list/list.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/page/page.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/page/page.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/page/page.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/radio/radio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/radio/radio.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/radio/radio.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/richtext/richtext.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/richtext/richtext.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/richtext/richtext.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/scroller/scroller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/scroller/scroller.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/scroller/scroller.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/switch/switch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/switch/switch.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/switch/switch.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/textarea/textarea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/textarea/textarea.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/textarea/textarea.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/video/video.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/video/video.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/npm/chameleon-ui-builtin/components/video/video.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/wx/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/pages/index/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/img/chameleon_83ee00e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/img/loading_1f26c50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/img/selected_520dcc8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/img/unselected_4e38c39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/components/demo-com/demo-com.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/components/first-com/first-com.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/static/js/components/first-com/first-com.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/static/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/audio/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/carousel-item/carousel-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/carousel/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/checkbox/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/aside/aside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/col/col.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/container/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/foot/foot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/head/head.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/layout/row/row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/list/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/native-scroller/native-scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/page/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/radio/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/refresh-loading/refresh-loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/refresh-view/refresh-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/richtext/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/scroller/scroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/switch/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/textarea/textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/wx/static/js/npm/chameleon-ui-builtin/components/video/video.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/wx/static/js/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wx/static/js/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.chameleon/www/static/css/chameleon-demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.chameleon/www/static/css/chameleon-demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.chameleon/www/static/js/chameleon-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.chameleon/www/static/js/chameleon-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.chameleon/www/weex/chameleon-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.chameleon/www/weex/chameleon-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.chameleon/www/static/img/chameleon_83ee00e.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.cml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.cml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +550,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -58,16 +570,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/first-page/first-page.cml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index/index.cml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="200">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -83,7 +593,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chameleon.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -103,9 +617,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/first-com/first-com.cml" />
         <option value="$PROJECT_DIR$/src/pages/index/index.cml" />
+        <option value="$PROJECT_DIR$/chameleon.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -217,7 +732,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.newComponent">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -250,9 +775,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.newComponent" />
         <item itemvalue="npm.newPage" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +793,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565453102281</updated>
       <workItem from="1565453108243" duration="55000" />
-      <workItem from="1565453173852" duration="3941000" />
+      <workItem from="1565453173852" duration="5662000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1565454491740</created>
@@ -276,14 +802,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565454491741</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="示例">
+      <created>1565457293647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565457293647</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3996000" />
+    <option name="totallyTimeSpent" value="5717000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986413" visible="true" weight="0.2497532" />
@@ -291,15 +824,15 @@
       <window_info id="Favorites" order="2" sideWeight="0.5013587" side_tool="true" weight="0.2497532" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995064" weight="0.25955734" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49802566" visible="true" weight="0.25955734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49901283" visible="true" weight="0.21327968" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009872" side_tool="true" visible="true" weight="0.21327968" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49802566" weight="0.21327968" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50197434" side_tool="true" visible="true" weight="0.25955734" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,12 +843,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="示例" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chameleon.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.cml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -324,16 +855,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/first-page/first-page.cml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/first-com/first-com.cml">
       <provider selected="true" editor-type-id="text-editor">
@@ -344,8 +866,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index/index.cml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="200">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chameleon.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
