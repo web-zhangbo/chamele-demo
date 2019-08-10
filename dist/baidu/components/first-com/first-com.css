@@ -129,20 +129,6 @@
   display: none;
 }
 
-page {
-  height: 100%;
-
-  display: -webkit-box;
-
-  display: -webkit-flex;
-
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
-}
-
-.class1 {
-  color: #f00;
+.first-com-text {
+  color: #0f0;
 }

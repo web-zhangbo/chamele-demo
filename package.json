@@ -4,7 +4,9 @@
   "description": "A chameleon project",
   "author": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "dev": "cml dev"
+  },
   "license": "MIT",
   "dependencies": {
     "chameleon-api": "0.5.4",

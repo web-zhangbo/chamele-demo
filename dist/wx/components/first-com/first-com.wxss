@@ -1,4 +1,4 @@
-.cml-base {  
+.cml-base {
   text-align: left;
   /* letter-spacing: 1rpx; */
   font-family: BlinkMacSystemFont, 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -56,6 +56,7 @@
 
           flex: 0 0 auto;
   
+  white-space: pre-wrap; /* not using 'pre': support auto line feed. 保留空白符序列，但是正常地进行换行 */
   word-wrap: break-word; /* 在长单词或 URL 地址内部进行换行。 */
   overflow: hidden; /* it'll be clipped if the height is not high enough. */
 }
@@ -73,7 +74,7 @@
 .cml-border-1px:after,
 .cml-border-right-1px:after,
 .cml-border-bottom-1px:after {
-  content: "\A0";
+  content: "";
   display: block;
   position: absolute;
   -webkit-transform-origin: 0 0;
@@ -129,20 +130,6 @@
   display: none;
 }
 
-page {
-  height: 100%;
-
-  display: -webkit-box;
-
-  display: -webkit-flex;
-
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
-}
-
-.class1 {
-  color: #f00;
+.first-com-text {
+  color: #0f0;
 }
